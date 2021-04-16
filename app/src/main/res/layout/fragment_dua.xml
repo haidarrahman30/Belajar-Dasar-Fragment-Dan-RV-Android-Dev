@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".belajarfragment.fragment.FragmentSatu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kita Sedang Di fragment Dua"
+        android:textAlignment="center"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kita Sedang Di fragment Dua"
+        android:textAlignment="center"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_dua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Pindah Fragment"
+        android:textAlignment="center" />
+
+
+
+</LinearLayout>
